@@ -1,0 +1,309 @@
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+
+:root {
+  --gold: rgb(229, 166, 6);
+  --body: #19222e;
+  --power: rgba(255, 0, 0, 0.403);
+  /* --pre-body: #2d3a4b77; */
+  --pre-body: #19222e;
+  --textcolor: silver;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--body);
+}
+/* ============================Header================================== */
+header {
+  width: 100%;
+  position: static;
+  top: 2.5px;
+  background-color: transparent;
+  padding: .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--gold);
+}
+header .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+}
+header .user p {
+  color: var(--gold);
+  font-size: 14px;
+}
+.all-home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wallet-fixed-header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+/* =========== Header =========== */
+/* ============================ Balance started =============================== */
+.reward-bal-points {
+  background-image: linear-gradient(45deg, #19222ef3, #19222ee9, #19222ee3), url('./assets/img/$-N.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 38vh;
+  color: var(--gold);
+  padding: 17px;
+  border-bottom-right-radius: 70px;
+  box-shadow: 1px 1px 0px 0px rgb(0, 0, 0, .2);
+}
+.reward-bal-points .main-rbp {
+  width: 85%;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: -30px;
+}
+.reward-bal-points .main-rbp .bal {
+  width: 50%;
+}
+/* ================== Balance ends ==================== */
+/* ================ Activities started ================== */
+.activities-content {
+  background-color: var(--pre-body);
+  width: 100%;
+  height: 5vh;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  /* margin-top: 5rem; */
+  /* box-shadow: 0 .5rem 4rem rgb(0, 0, 0, .2) */
+}
+.main-activity .activity ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.main-activity .activity ul a {
+  color: var(--textcolor);
+  text-decoration: none;
+  
+}
+/* ================ Activities ends ================== */
+/* ================ wallet address start ================== */
+.wallet-address {
+  background-color: transparent;
+  width: 50%;
+  text-align: center;
+}
+
+.wallet-address p {
+  font-size: 10px;
+  color: var(--textcolor);
+}
+
+.wallet-address input {
+  width: 50%;
+  font-size: 14px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: transparent;
+  color: var(--textcolor);
+  outline: none;
+}
+
+.wallet-address button {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--body);
+  color: var(--gold);
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.wallet-address button .fa-copy {
+  font-size: 14px;
+  background-color: transparent;
+}
+/* ================ wallet address ends ================== */
+/* ================ Referral started ================== */
+
+.referral-link {
+  background-color: var(--pre-body);
+  width: 70%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 .5rem 4rem rgb(0, 0, 0, .2)
+}
+
+.referral-link p {
+  font-size: 14px;
+  color: var(--textcolor);
+  margin-bottom: 10px;
+}
+
+.referral-link input {
+  width: 80%;
+  padding: 5px;
+  font-size: 14px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  background-color: transparent;
+  color: var(--textcolor);
+  margin-bottom: 10px;
+}
+
+.referral-link button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--body);
+  color: var(--gold);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.referral-link button .fa-copy {
+  font-size: 25px;
+  background-color: transparent;
+}
+
+.referral-link button:hover {
+  background-color: var(--body);
+}
+/* ================== Referral ends ======================= */
+
+/* ================== Main mine start ===================== */
+.parent-mine {
+  height: 50vh;
+  overflow-y: auto;
+  padding-bottom: 35px;
+}
+.main-mine {
+  background-color: var(--pre-body);
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  /* overflow-y: auto; */
+  height: 45vh;
+  align-items: center;
+  margin-top: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 .5rem 4rem rgb(0, 0, 0, .2);
+}
+.main-mine p {
+  font-size: 16px;
+  color: #fff;
+}
+.main-mine-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-mine-icon > img {
+  width: 300px;
+  height: 300px;
+}
+/* ================== Main mine ends ============ */
+
+/* ============ user-profile start ============== */
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.user-icon {
+  background-color: transparent;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  border: 2px solid var(--gold);
+  border-radius: 50%;
+}
+.user-icon .userIcon {
+  color: var(--gold);
+  font-size: 52px;
+}
+.userDetails {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 22vh;
+}
+.widthrawBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ============ user-profile ends =============== */
+/* ============ history start =============== */
+.history {
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 2rem;
+  padding: 10px;
+  /* border: 1px solid red; */
+}
+.history .container {
+  width: 97%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid #fff; */
+  margin-top: 7px;
+  padding: 10px;
+}
+/* ============ history ends =============== */
+
+
+/* Responsive design */
+@media screen and (max-width: 650px) {
+  .referral-link {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 363px) {
+  .main-mine {
+    width: 90%;
+    height: 45vh;
+    margin-top: .5rem;
+  }
+  .main-mine-icon > img {
+    width: 200px;
+    height: 200px;
+  }
+  .reward-bal-points p {
+    font-size: 12px;
+  }
+}

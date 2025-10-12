@@ -1,0 +1,24 @@
+.bottom-nav {
+    background-color: #19222e;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    box-shadow: 0 .5rem 4rem rgb(0, 0, 0, .2)
+  }
+
+  .bottom-nav a {
+    color: rgb(229, 166, 6);
+    text-decoration: none;
+    text-align: center;
+    font-size: .5rem;
+  }
+  
+  .bottom-nav a i {
+    display: block;
+    font-size: 1rem;
+  }
