@@ -1,7 +1,7 @@
 .bottom-nav {
     background-color: #19222e;
     width: 100%;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     display: flex;
     justify-content: space-around;

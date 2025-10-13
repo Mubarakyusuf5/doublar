@@ -14,9 +14,11 @@
 } */
 
 :root {
-  --gold: rgb(229, 166, 6);
-  --body: #19222e;
+  --gold: rgb(229, 166, 6); /* accent */
+  --body: #19222e; /* primary */
   --power: rgba(255, 0, 0, 0.403);
+  /* --sub: #19222ed2; */
+  --sub1: #2c3e50; /* secondary */
   /* --pre-body: #2d3a4b77; */
   --pre-body: #19222e;
   --textcolor: silver;
