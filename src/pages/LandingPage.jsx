@@ -89,13 +89,13 @@ export const LandingPage = () => {
             </div>
 
             <div className="navbar-links">
-              <Link href="#features" className="navbar-link">
+              <Link to="#features" className="navbar-link">
                 Features
               </Link>
-              <Link href="#docs" className="navbar-link">
+              <Link to="#docs" className="navbar-link">
                 Docs
               </Link>
-              <Link href="#connect" className="navbar-link">
+              <Link to="#connect" className="navbar-link">
                 Connect
               </Link>
             </div>
@@ -195,17 +195,17 @@ export const LandingPage = () => {
               <h4>Product</h4>
               <ul className="footer-links">
                 <li>
-                  <Link href="#" className="footer-link">
+                  <Link to="#" className="footer-link">
                     Features
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="footer-link">
+                  <Link to="#" className="footer-link">
                     Security
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="footer-link">
+                  <Link to="#" className="footer-link">
                     Roadmap
                   </Link>
                 </li>
@@ -216,17 +216,17 @@ export const LandingPage = () => {
               <h4>Resources</h4>
               <ul className="footer-links">
                 <li>
-                  <Link href="#" className="footer-link">
+                  <Link to="#" className="footer-link">
                     Docs
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="footer-link">
+                  <Link to="#" className="footer-link">
                     API
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="footer-link">
+                  <Link to="#" className="footer-link">
                     Support
                   </Link>
                 </li>
@@ -237,17 +237,17 @@ export const LandingPage = () => {
               <h4>Company</h4>
               <ul className="footer-links">
                 <li>
-                  <Link href="#" className="footer-link">
+                  <Link to="#" className="footer-link">
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="footer-link">
+                  <Link to="#" className="footer-link">
                     Privacy
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="footer-link">
+                  <Link to="#" className="footer-link">
                     Terms
                   </Link>
                 </li>
@@ -257,7 +257,7 @@ export const LandingPage = () => {
             <div className="footer-column">
               <h4>Community</h4>
               <div className="footer-social">
-                <Link href="#" className="social-link">
+                <Link to="#" className="social-link">
                   <svg
                     className="social-icon"
                     fill="currentColor"
@@ -266,7 +266,7 @@ export const LandingPage = () => {
                     <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                   </svg>
                 </Link>
-                <Link href="#" className="social-link">
+                <Link to="#" className="social-link">
                   <svg
                     className="social-icon"
                     fill="none"

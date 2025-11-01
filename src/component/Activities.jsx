@@ -7,7 +7,7 @@ const Activities = () => {
     <div className='main-activity '>
       <section className="activity">
         <ul className='d-flex justify-content-between container text-light'>
-            <Link to={'/history'}>History</Link>
+            {/* <Link to={'/history'}>History</Link> */}
             <Link to={'/income'}>Income</Link>
             <Link to={'/outcome'}>Outcome</Link>
         </ul>
