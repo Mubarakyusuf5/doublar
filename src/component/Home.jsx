@@ -66,7 +66,7 @@ const Home = () => {
           <div className="main-rbp container">
             <div className="bal text-center">
               <p>
-                <span className="fs-4">{USDT}</span> <sup>USDT</sup>
+                <span className="fs-4">${USDT}</span> <sup>USDT</sup>
               </p>
             </div>
 
