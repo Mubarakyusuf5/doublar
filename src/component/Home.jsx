@@ -116,16 +116,16 @@ const Home = () => {
             <h4 className="mb-3 text-white">Transaction History</h4>
             <ul className="list-group">
               <li className="list-group-item d-flex justify-content-between" style={{ backgroundColor: "transparent", color: "#fff" }}>
-                <span>Deposit</span> <span className="text-success">+ ₦15,000</span>
+                <span>Deposit</span> <span className="text-success">+ $15,000</span>
               </li>
               <li className="list-group-item d-flex justify-content-between" style={{ backgroundColor: "transparent", color: "#fff" }}>
-                <span>Purchase - Laptop</span> <span className="text-danger">- ₦120,000</span>
+                <span>Purchase - Laptop</span> <span className="text-danger">- $120,000</span>
               </li>
               <li className="list-group-item d-flex justify-content-between" style={{ backgroundColor: "transparent", color: "#fff" }}>
-                <span>Withdrawal</span> <span className="text-danger">- ₦20,000</span>
+                <span>Withdrawal</span> <span className="text-danger">- $20,000</span>
               </li>
               <li className="list-group-item d-flex justify-content-between" style={{ backgroundColor: "transparent", color: "#fff" }}>
-                <span>Transfer from Musa</span> <span className="text-success">+ ₦5,000</span>
+                <span>Transfer from Musa</span> <span className="text-success">+ $5,000</span>
               </li>
             </ul>
           </div>
@@ -139,7 +139,7 @@ const Home = () => {
                 <tr style={{ backgroundColor: "var(--sub1)", color: "#fff" }}>
                   <th>Date</th>
                   <th>Source</th>
-                  <th>Amount (₦)</th>
+                  <th>Amount ($)</th>
                 </tr>
               </thead>
               <tbody>
@@ -164,7 +164,7 @@ const Home = () => {
                   <div className="card-body">
                     <h5 className="card-title text-danger">Rent Payment</h5>
                     <p className="card-text mb-1">Date: 2025-10-15</p>
-                    <p className="card-text">Amount: ₦80,000</p>
+                    <p className="card-text">Amount: $80,000</p>
                   </div>
                 </div>
               </div>
@@ -174,7 +174,7 @@ const Home = () => {
                   <div className="card-body">
                     <h5 className="card-title text-warning">Groceries</h5>
                     <p className="card-text mb-1">Date: 2025-10-20</p>
-                    <p className="card-text">Amount: ₦15,500</p>
+                    <p className="card-text">Amount: $15,500</p>
                   </div>
                 </div>
               </div>
@@ -184,7 +184,7 @@ const Home = () => {
                   <div className="card-body">
                     <h5 className="card-title text-info">Internet Subscription</h5>
                     <p className="card-text mb-1">Date: 2025-10-25</p>
-                    <p className="card-text">Amount: ₦8,000</p>
+                    <p className="card-text">Amount: $8,000</p>
                   </div>
                 </div>
               </div>
