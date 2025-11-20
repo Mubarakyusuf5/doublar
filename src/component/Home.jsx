@@ -70,7 +70,7 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="bal text-center">
+            {/*    <div className="bal text-center">
               <p className="fa-solid fa-exchange fs-2 text-light"> </p>
             </div>
 
@@ -79,7 +79,7 @@ const Home = () => {
                 {" "}
                 <span className="fs-4">{NGN}</span> <sup>NGN</sup>
               </p>
-            </div>
+            </div>*/}
           </div>
           <div className="fs-3 text-secondary p-3">
             <p>W3P Balance:</p>
